@@ -1,137 +1,165 @@
-*{
+* {
     font-family: 'Roboto', sans-serif;
 }
-.allpage{
+
+.allpage {
     display: grid;
     grid-template-columns: 18% 82%;
-    width: 100%;
+    max-width: 100%;
 
 }
-.nav{
+
+.nav {
     display: flex;
     justify-content: left;
     flex-direction: column;
     margin-top: 10px;
     margin-left: 15px;
     gap: 15px;
+    /* position: fixed; */
+
+    min-width: 300px;
 }
-.nav img{
+
+.nav img {
     width: 150px;
     height: 150px;
     border-radius: 10px;
 }
-.nav p{
+
+.nav p {
     color: rgb(165, 165, 165);
 }
-h5{
+
+h5 {
     display: flex;
     gap: 10px;
     transition: .4s;
     align-items: center;
 }
-h5:hover{
+
+h5:hover {
     color: rgb(52, 175, 93);
 
 }
-.nicons{
+
+.nicons {
     display: flex;
     padding-top: 15px;
     gap: 7px;
     font-size: 20px;
-    
+
 }
-.nicons i{
+
+.nicons i {
     transition: .1s;
 }
-.nicons i:hover{
+
+.nicons i:hover {
     font-size: large;
     color: rgb(28, 146, 175);
 }
-.mpage{
+
+.mpage {
     background-color: rgb(231, 228, 228);
     padding-left: 20px;
 }
-.card{
+
+.card {
     max-width: 350px;
     max-height: 500px;
     background-color: rgb(236, 236, 236);
 }
-.cardimg{
+
+.cardimg {
     background-color: aliceblue;
     opacity: 1;
     transition: .4s;
 }
-.cardimg:hover{
+
+.cardimg:hover {
     opacity: 0.4;
 }
-.card img{
-    max-height:250px ;
+
+.card img {
+    max-height: 250px;
     width: 350px;
 
 }
-.top{
+
+.top {
     display: grid;
     gap: 15px;
 }
-.filters{
-    display:  flex;
+
+.filters {
+    display: flex;
     gap: 2px;
     justify-content: space-between;
     align-items: center;
     max-width: 360px;
-  
-    
+
+
 }
-.filters button{
+
+.filters button {
     margin-left: 10px;
-width: 80px;
-height: 30px;
-border: none;
-transition: .3s;
+    width: 80px;
+    height: 30px;
+    border: none;
+    transition: .3s;
 
 
 }
-.filters button:hover{
+
+.filters button:hover {
     color: aliceblue;
     background-color: rgb(8, 6, 19);
 }
-.top hr{
+
+.top hr {
     height: 7px;
     display: block;
     background-color: rgb(131, 131, 131);
 }
-.cardcont{
+
+.cardcont {
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 15px;
     padding-top: 20px;
 }
-.cardtext{
+
+.cardtext {
     padding: 10px;
     display: grid;
     text-align: left;
     gap: 10px;
 }
-.splitter{
+
+.splitter {
     display: flex;
     justify-content: center;
     gap: 3px;
     padding-top: 30px;
 }
-.splitter button{
+
+.splitter button {
     width: 24px;
     height: 24px;
     text-align: center;
     border: 1px solid;
     border-radius: 50%;
     transition: .3s;
-    
+
 }
-.splitter button:hover{
+
+.splitter button:hover {
     color: aliceblue;
     background-color: rgb(15, 11, 37);
 }
-.aboutme{
+
+.aboutme {
     padding-top: 50px;
     display: grid;
     grid-template-columns: auto;
@@ -140,48 +168,252 @@ transition: .3s;
 
 
 }
-.abphoto{
+
+.abphoto {
     display: flex;
     justify-content: center;
     gap: 15px;
     padding-bottom: 50px;
 }
-.abphoto img{
+
+.abphoto img {
     width: 500px;
     height: 280px;
 }
-.aboutme p{
-    padding-left: 10px ;
+
+.aboutme p {
+    padding-left: 10px;
     padding-top: 20px;
     padding-bottom: 40px;
 }
-.tskills{
+
+.tskills {
     padding-bottom: 30px;
 }
-.percent{
+
+.percent {
     padding: 30px;
 }
-.w3-grey{
+
+.w3-grey {
     text-align: center;
     width: 900px;
 }
-.tskills button{
+
+.tskills button {
     border: none;
-    padding:12px 6px;
+    padding: 12px 6px;
     background-color: rgb(49, 30, 18);
     color: aliceblue;
     text-align: center;
     transition: .2s;
 }
-.tskills button:hover{
+
+.tskills button:hover {
     background-color: rgb(70, 43, 27);
 }
-.card2{
+
+.charge {
     display: grid;
-    justify-content: center;
-    border: 1px solid black;
-    width: 200px;
+    grid-template-columns: auto auto auto;
+    padding-bottom: 40px;
+
 }
-.quality{
-padding: 10px 20px;
+
+.card2 {
+    opacity: 0.6;
+    border: 1px solid black;
+    width: 400px;
+    transition: .3s;
+
+
+}
+
+.card2:hover {
+    opacity: 1;
+}
+
+.quality {
+    padding: px 20px;
+}
+
+.line {
+    border: 1px solid black;
+    width: 400px;
+    text-align: center;
+    padding: 10px 60px;
+}
+
+.quality {
+    padding: 50px 0;
+    font-size: 32px;
+
+}
+
+.permont {
+    padding: 00px 0;
+}
+
+.buy {
+    padding: 20px 0;
+}
+
+.n1 {
+    background-color: rgb(27, 126, 151);
+    color: aliceblue;
+}
+
+.n2 {
+    background-color: rgb(62, 155, 241);
+    color: aliceblue;
+}
+
+.n3 {
+    background-color: rgb(26, 15, 65);
+    color: aliceblue;
+}
+
+.buy button {
+    padding: 10px 30px;
+    background-color: rgb(38, 44, 136);
+    color: #bebaba;
+    border: none;
+    font-size: 24px;
+}
+
+.cntctme {
+    background-color: #bebaba;
+    padding-bottom: 20px;
+
+}
+
+.info {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.email {
+    padding: 30px 60px;
+    width: 80%;
+    background-color: rgb(119, 148, 155);
+    gap: 10px;
+}
+
+.location {
+    padding: 30px 60px;
+    width: 80%;
+    background-color: rgb(102, 175, 180);
+    gap: 10px;
+}
+
+.phone {
+
+    padding: 30px 60px;
+    width: 80%;
+    background-color: rgb(119, 148, 155);
+    gap: 10px;
+
+}
+
+.inputs {
+    display: grid;
+    grid-template-rows: auto;
+    padding-top: 10px;
+    row-gap: 10px;
+    padding-left: 10px
+}
+
+.inputs input {
+    width: 800px;
+    height: 50px;
+}
+
+.inputs button {
+    width: 150px;
+    height: 40px;
+    border: none;
+    background-color: black;
+    color: #bebaba;
+}
+
+.futer {
+    width: 300px;
+}
+
+.sminfo {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.blogpost {
+
+    text-align: center;
+
+}
+
+.ipsum {
+    padding: 10px;
+    width: 150px;
+    transition: .2s;
+}
+
+.ipsum:hover {
+    background-color: rgb(102, 102, 102);
+}
+
+.lorem {
+    padding: 10px;
+    width: 150px;
+    transition: .2s;
+}
+
+.lorem:hover {
+    background-color: rgb(102, 102, 102);
+}
+
+.ipsum img {
+    width: 70px;
+}
+
+.lorem img {
+    width: 70px;
+}
+
+.populatags {
+    text-align: center;
+}
+
+.populatags h2 {
+    background-color: rgb(0, 0, 0);
+    width: 70px;
+    color: #bebaba;
+    text-align: center;
+
+}
+
+.populatags p {
+    display: inline-block;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 90px;
+    background-color: #bebaba;
+    padding: 5px 10px;
+    margin: 5px;
+    transition: .2s;
+}
+
+.populatags p:hover {
+    background-color: rgb(83, 82, 82);
+}
+
+.footer {
+    padding-left: 0;
+    padding: 20px 0px;
+    text-align: center;
+    background-color: black;
+    color: #bebaba;
 }
