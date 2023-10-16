@@ -1,0 +1,187 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.allpage{
+    display: grid;
+    grid-template-columns: 18% 82%;
+    width: 100%;
+
+}
+.nav{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 15px;
+    gap: 15px;
+}
+.nav img{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+.nav p{
+    color: rgb(165, 165, 165);
+}
+h5{
+    display: flex;
+    gap: 10px;
+    transition: .4s;
+    align-items: center;
+}
+h5:hover{
+    color: rgb(52, 175, 93);
+
+}
+.nicons{
+    display: flex;
+    padding-top: 15px;
+    gap: 7px;
+    font-size: 20px;
+    
+}
+.nicons i{
+    transition: .1s;
+}
+.nicons i:hover{
+    font-size: large;
+    color: rgb(28, 146, 175);
+}
+.mpage{
+    background-color: rgb(231, 228, 228);
+    padding-left: 20px;
+}
+.card{
+    max-width: 350px;
+    max-height: 500px;
+    background-color: rgb(236, 236, 236);
+}
+.cardimg{
+    background-color: aliceblue;
+    opacity: 1;
+    transition: .4s;
+}
+.cardimg:hover{
+    opacity: 0.4;
+}
+.card img{
+    max-height:250px ;
+    width: 350px;
+
+}
+.top{
+    display: grid;
+    gap: 15px;
+}
+.filters{
+    display:  flex;
+    gap: 2px;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 360px;
+  
+    
+}
+.filters button{
+    margin-left: 10px;
+width: 80px;
+height: 30px;
+border: none;
+transition: .3s;
+
+
+}
+.filters button:hover{
+    color: aliceblue;
+    background-color: rgb(8, 6, 19);
+}
+.top hr{
+    height: 7px;
+    display: block;
+    background-color: rgb(131, 131, 131);
+}
+.cardcont{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 15px;
+    padding-top: 20px;
+}
+.cardtext{
+    padding: 10px;
+    display: grid;
+    text-align: left;
+    gap: 10px;
+}
+.splitter{
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+    padding-top: 30px;
+}
+.splitter button{
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 50%;
+    transition: .3s;
+    
+}
+.splitter button:hover{
+    color: aliceblue;
+    background-color: rgb(15, 11, 37);
+}
+.aboutme{
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.abphoto{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-bottom: 50px;
+}
+.abphoto img{
+    width: 500px;
+    height: 280px;
+}
+.aboutme p{
+    padding-left: 10px ;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.tskills{
+    padding-bottom: 30px;
+}
+.percent{
+    padding: 30px;
+}
+.w3-grey{
+    text-align: center;
+    width: 900px;
+}
+.tskills button{
+    border: none;
+    padding:12px 6px;
+    background-color: rgb(49, 30, 18);
+    color: aliceblue;
+    text-align: center;
+    transition: .2s;
+}
+.tskills button:hover{
+    background-color: rgb(70, 43, 27);
+}
+.card2{
+    display: grid;
+    justify-content: center;
+    border: 1px solid black;
+    width: 200px;
+}
+.quality{
+padding: 10px 20px;
+}
